@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.0.1b1 (Python 3.9.0 on win32)" generated="20210418 19:01:55.899" rpa="false" schemaversion="2">
+<suite id="s1" name="Openyoutube" source="D:\pythonProject\testcases\Openyoutube.robot">
+<test id="s1-t1" name="Google Translator">
+<kw name="Translator" library="keywords">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>${Translator}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20210418 19:01:56.249" level="INFO">Opening browser 'Chrome' to base url 'https://translate.google.com/?sl=en&amp;tl=km&amp;op=translate'.</msg>
+<status status="PASS" starttime="20210418 19:01:56.247" endtime="20210418 19:02:01.493"/>
+</kw>
+<status status="PASS" starttime="20210418 19:01:56.247" endtime="20210418 19:02:01.494"/>
+</kw>
+<status status="PASS" starttime="20210418 19:01:56.247" endtime="20210418 19:02:01.494"/>
+</test>
+<status status="PASS" starttime="20210418 19:01:55.901" endtime="20210418 19:02:01.497"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Openyoutube">Openyoutube</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

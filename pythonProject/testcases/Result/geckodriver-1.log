@@ -1,0 +1,7 @@
+1618747151850	geckodriver	INFO	Listening on 127.0.0.1:58859
+1618747154938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\vandy\\AppData\\Local\\Temp\\rust_mozprofileawBt4L"
+JavaScript error: zd0dikazykd.cfg, line 2: ReferenceError: Components is not defined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618747158635	Marionette	INFO	Listening on port 58867
+1618747159158	Marionette	WARN	TLS certificate errors will be ignored for this session
+1618747164678	Marionette	INFO	Stopped listening on port 58867
